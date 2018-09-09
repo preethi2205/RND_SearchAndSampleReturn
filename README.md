@@ -13,9 +13,12 @@
 ## Project: Search and Sample Return
 ### The why? 
 This is the first project in the robotics nanodegree program and is intended to provide an entry into the world of robotics. It is based on the NASA's search and sample return program, and gives an introductiheon to two major building blocks of any robot's software - Perception and Planning
+
 ### The what?
 The robot involved in this project is four-wheeled and has a camera that can sense it's environment. It's aim is to search the terrain around it to map and navigate it. While navigating the terrain, it is also responsible for collecting rock samples it finds on its way. 
+
 ![alt text][imageRobot]
+
 ### The how?
 The project is split into two phases:
 1. Training: In this phase we will develop functions that help the robot process the environment sensed by the on-board camera.
@@ -31,6 +34,7 @@ Udacity provides a simulator set up that is capable of simulating the environmen
 The following functions are developed and applied on the image sensed by the robot. By the end of this phase, the rover will be able to understand where it can navigate, and what places it needs to avoid. 
 #### 1. Perspective transform
 In this step, we convert image from rover's point of view to the top view. The image below summarized the output of the perspective transform. The left image is the direct output of the rover's camera, and the right image is taken after the perspective transform has been applied.
+
 ![alt text][imagePerspectiveTransform]
 
 #### 2. Color threshold
